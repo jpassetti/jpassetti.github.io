@@ -1,0 +1,96 @@
+body {
+   background-color: #000;
+   font-size: 16px;
+}
+.tablet {
+   width: 768px;
+   height: 1024px;
+   margin: 0px auto;
+   background-color: #fff;
+  overflow: hidden;
+}
+.container {
+   width: 95%;
+   margin: 2rem auto;
+   text-align: center;
+}
+.logo {
+   margin: 1rem 0;
+}
+h1 {
+   font-family: 'Roboto', sans-serif;
+   font-size: 2.5rem;
+   font-weight: 700;
+   margin: 1rem 0;
+   text-align: center;
+   text-transform: uppercase;
+}
+.quiz {
+   background-color: #ff9c08;
+   padding: 2rem;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   border-radius: 1rem;
+   position: relative;
+}
+.btn {
+   position: absolute;
+   top: 50%;
+   left: 0px;
+   width: 4rem;
+   height: 4rem;
+   line-height: 4rem;
+   background-color: #a96500;
+   color: white;
+   border-radius: 50%;
+   transition: all .5s;
+   font-size: 2rem;
+}
+.btn-previous {
+   transform: translate(-50%, -50%);
+}
+.btn-next {
+   left: auto;
+   right: 0px;
+   transform: translate(50%, -50%);
+}
+.btn:hover {
+   background-color: black
+}
+
+.animation {
+   text-align: center;
+   margin-bottom: 1rem;
+}
+#beer {
+   transition: all .5s;
+}
+#beer:hover {
+   transform: scale(1.1) rotate(10deg);
+}
+h2.question {
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+.answers {
+   margin: 2rem 0;
+   font-size: 1.5rem;
+}
+.answers .form-group {
+   margin: 1rem;
+   display
+}
+.submit-btn {
+   font-size: 1.5rem;
+   font-weight: bold;
+   text-transform: uppercase;
+   background-color: inherit;
+   border: 2px solid black;
+   padding: 1rem;
+   transition: all .5s;
+}
+.submit-btn:hover {
+   background-color: black;
+   color: white;
+}
